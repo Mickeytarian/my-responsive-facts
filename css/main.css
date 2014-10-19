@@ -1,0 +1,64 @@
+html
+
+two{
+	display: none;
+}
+
+three{
+	display: none;
+}
+
+four{
+	display: none;
+}
+
+five{
+	display: none;
+}
+
+
+
+@media (min-width: 1050px){
+	one{
+		display: block;
+	}
+	body{
+		background: red;
+	}
+}
+
+@media (min-width: 875px){
+	two{
+		display: block;
+	}
+	body{
+		background: blue;
+	}
+}
+
+@media (min-width: 600px){
+	three{
+		display: block;
+	}
+	body{
+		background: green;
+	}
+}
+
+@media (min-width: 351px){
+	four{
+		display: block;
+	}
+	body{
+		background: purple;
+	}
+}
+
+@media (max-width: 350px){
+	five{
+		display:block;
+	}
+	body{
+		background: orange;
+	}
+}

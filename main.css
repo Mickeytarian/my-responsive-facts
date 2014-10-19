@@ -1,0 +1,82 @@
+
+body{
+background: blue;
+}
+
+.one{
+display: none;
+}
+
+.two{
+display: none;
+}
+
+.three{
+display: none;
+}
+
+.four{
+display: none;
+}
+
+.five{
+display: none;
+}
+
+.six{
+display: none;
+}
+
+@media(max-width:1000px){
+	body{
+	background: blue;
+	}
+	.one{
+	display: inline-block;
+	}
+}
+
+@media(max-width: 875px){
+	body{
+	background: red;
+	}
+	.two{
+	display: inline-block;
+	}
+}
+
+@media(max-width: 750px){
+	body{
+	background: green;
+	}
+	.three{
+	display: inline-block;
+	}
+}
+
+@media(max-width: 625px){
+	body{
+	background: orange;
+	}
+	.four{
+	display: inline-block;
+	}
+}
+
+@media(max-width: 500px){
+	body{
+	background: purple;
+	}
+	.five{
+	display: inline-block;
+	}
+}
+
+@media(max-width: 375px){
+	body{
+	background: yellow;
+	}
+	.six{
+	display: inline-block;
+	}
+}
